@@ -19,13 +19,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Sheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body
     class="bg-backGround text-dark font-Montserrat selection:bg-dark selection:text-primaryColor-2"
   >
     <!-- Header Section -->
-    <header class="lg:max-w-1200 max-w-full m-auto p-2">
+    <header class="lg:max-w-1200 xl:max-w-screen-2xl max-w-full m-auto p-2">
       <div
         class="border border-primaryColor-3 mt-3 px-5 py-3 rounded-full flex justify-between items-center"
       >
@@ -125,20 +130,20 @@
         </div>
       </div>
     </header>
-    <main>
-      <section id="info" class="my-5 md:my-10 bg-green-700">
+    <main class="pb-40">
+      <section id="info" class="my-5 md:my-10">
         <div
-          class="lg:max-w-1200 max-w-full m-auto grid grid-cols-1 sm:grid-cols-2 gap-3 2xl:gap-7 p-1 md:p-3 md:h-72"
+          class="lg:max-w-1200 xl:max-w-screen-2xl max-w-full m-auto grid grid-cols-1 sm:grid-cols-2 gap-3 2xl:gap-7 p-1 md:p-3"
         >
           <div class="p-2">
             <h1
-              class="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold text-dark uppercase items-center"
+              class="text-5xl max-w-96 lg:max-w-full sm:text-5xl md:text-7xl xl:text-8xl font-extrabold text-dark uppercase items-center"
             >
               Welcome to my Culinary Haven!
             </h1>
           </div>
           <div class="p-2 flex flex-col justify-center">
-            <p class="mb-5 text-base lg:text-lg">
+            <p class="mb-5 text-base lg:text-lg xl:text-2xl">
               Bonjour and welcome to the heart of my kitchen! I'm Isabella
               Russo, the culinary enthusiast behind this haven of flavors, Cooks
               Delight. Join me on a gastronomic journey where each dish carries
@@ -155,18 +160,20 @@
       <!-- About Section -->
       <section id="About Section" class="my-5 md:my-10">
         <div
-          class="lg:max-w-1200 max-w-full m-auto grid grid-cols-1 sm:grid-cols-2 gap-3 2xl:gap-7 p-1 md:p-3 bg-green-700"
+          class="lg:max-w-1200 xl:max-w-screen-2xl max-w-screen-md m-auto grid grid-cols-1 lg:grid-cols-2 gap-3 2xl:gap-7 p-1 md:p-3"
         >
-          <div>
+          <div class="flex flex-col items-center">
             <div>
               <img
                 src="./imgs/AboutUs page images/Author Image.png"
                 alt="image of a Laidy"
               />
             </div>
-            <div class="p-2 flex justify-between items-center">
+            <div
+              class="border-2 border-dark rounded-full w-full py-2 px-4 mt-4 flex justify-between items-center"
+            >
               <p>Follow Me</p>
-              <div class="mb-5 md:mb-0">
+              <div>
                 <ul class="text-lg flex gap-4">
                   <li class="text-dark text-2xl">
                     <a href="#"><i class="fa-brands fa-tiktok"></i></a>
@@ -188,8 +195,36 @@
               </div>
             </div>
           </div>
-          <div>
-            <h2 class="text-3xl">From Italian Roots to Global Palates</h2>
+          <div class="p-2 md:p-3.5 xl:p-5 flex flex-col gap-4">
+            <h2
+              class="text-3xl md:text-4xl xl:text-5xl font-extrabold uppercase"
+            >
+              From Italian Roots to Global Palates
+            </h2>
+            <p>
+              Born and raised in the vibrant culinary landscape of Italy, my
+              journey with food began in the heart of my family's kitchen.
+              Surrounded by the aroma of fresh herbs, the sizzle of pans, and
+              the laughter of loved ones, I developed a deep appreciation for
+              the art of cooking. My culinary education took me from the
+              historic streets of Rome to the bustling markets of Florence,
+              where I honed my skills and cultivated a love for the simplicity
+              and authenticity of Italian cuisine.
+            </p>
+            <p>
+              Driven by a relentless curiosity, I embarked on a global culinary
+              exploration, seeking inspiration from the rich tapestry of flavors
+              found in kitchens around the world. From the spicy markets of
+              Marrakech to the sushi stalls of Tokyo, each experience added a
+              unique brushstroke to my culinary canvas.
+            </p>
+            <p>
+              Whether you're a seasoned home cook or just starting your culinary
+              adventure, I'm delighted to have you here. Let's stir, simmer, and
+              savor the beauty of creating something wonderful together.
+            </p>
+            <p>Warmest regards,</p>
+            <p class="font-Homemade-Apple">Isabella Russo</p>
           </div>
         </div>
       </section>

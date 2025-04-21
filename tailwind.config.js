@@ -23,6 +23,7 @@ module.exports = {
       },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
+        "Homemade-Apple": ["Homemade Apple", "cursive"],
       },
       backgroundImage: {
         "hero-image": "url('./imgs/Hero  Section (1).png')",
