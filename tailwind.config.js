@@ -35,13 +35,13 @@ module.exports = {
       },
       width: {
         "custom-Secondary": "2450px",
-        "custom-primary": "2000px",
         1200: "1200px",
       },
       height: {
         "custom-Secondary": "1200px",
         custom: "3500px",
-        "custom-primary": "2600px",
+        "hero-primary": "80vh",
+        "hero-secondary": "56vh",
       },
     },
   },

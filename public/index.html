@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body
-    class="bg-backGround text-dark font-Montserrat selection:bg-dark selection:text-primaryColor-2 mx-4 sm:mx-10 3xl:mx-auto 3xl:max-w-screen-2xl"
+    class="bg-backGround text-dark font-Montserrat selection:bg-dark selection:text-primaryColor-2 mx-4 sm:mx-10 3xl:mx-96"
   >
     <!-- Header Section -->
     <header>
@@ -230,17 +230,17 @@
       <!-- HEROS SECTION -->
       <section id="heros-section" class="md:sticky md:top-0 md:z-10">
         <div
-          class="p-2 max-w-full md:max-w-1200 m-auto bg-hero-image bg-cover bg-center h-[65vh] rounded-2xl flex justify-center items-center"
+          class="p-2 max-w-full md:max-w-1200 m-auto bg-hero-image bg-cover bg-center sm:h-hero-secondary 2xl:h-hero-primary rounded-2xl flex justify-center items-center"
         >
           <div
             class="text-light text-center flex flex-col justify-center items-center gap-3 md:max-w-screen-lg"
           >
             <h1
-              class="text-3xl md:text-5xl xl:text-7xl font-bold uppercase md:max-w-3xl lg:max-w-4xl"
+              class="text-2xl md:text-5xl xl:text-7xl font-bold uppercase md:max-w-3xl lg:max-w-4xl"
             >
               Unleash Culinary Excellence
             </h1>
-            <p class="xl:text-2xl lg:text-xl sm:text-lg w-3/5 mb-5">
+            <p class="xl:text-2xl lg:text-xl sm:text-lg md:w-3/5 mb-5">
               Explore a world of flavors, discover handcrafted recipes, and let
               the aroma of our passion for cooking fill your kitchen
             </p>
@@ -885,21 +885,25 @@
 
         <!-- About Us Section -->
 
-        <section class="bg-[#F8F4ED] py-12 px-6 md:px-16 rounded-3xl">
-          <div class="grid md:grid-cols-3 gap-x-3">
-            <!-- First -->
-            <div class="col-span-2 grid grid-cols-2 gap-3">
-              <!-- Text -->
-              <div>
+        <section class="mb-10">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
+            <!-- First Column -->
+            <div
+              class="col-span-1 md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6"
+            >
+              <!-- Text Content -->
+              <div class="flex flex-col justify-center">
                 <p
-                  class="uppercase text-light bg-primaryColor-3 inline-block px-4 py-2 rounded-full font-semibold mb-4"
+                  class="uppercase text-xs sm:text-sm py-2 px-4 sm:px-5 font-bold rounded-full bg-primaryColor-3 mb-5 text-light text-center w-fit"
                 >
                   About Us
                 </p>
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                <h2
+                  class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 leading-tight"
+                >
                   OUR CULINARY CHRONICLE
                 </h2>
-                <p class="text-gray-700 mb-6">
+                <p class="text-gray-700 text-sm sm:text-base mb-6">
                   Our journey is crafted with dedication, creativity, and an
                   unwavering commitment to delivering delightful culinary
                   experiences. Join us in savoring the essence of every dish and
@@ -907,45 +911,44 @@
                 </p>
                 <a
                   href="#"
-                  class="uppercase md:text-sm py-2 md:py-1.5 px-4 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transition-all duration-250 text-center"
-                  >Read more</a
+                  class="uppercase text-xs sm:text-sm py-2 px-4 sm:px-5 font-semibold rounded-full border-2 border-dark hover:bg-dark hover:text-white transition-all duration-300 text-center w-fit"
                 >
+                  Read more
+                </a>
               </div>
               <!-- Image 1 -->
-              <div>
+              <div class="flex justify-center sm:justify-end">
                 <img
                   src="../public/imgs/CTA-images/Recipe Card.png"
                   alt="Food Image 1"
-                  class="flex justify-self-end"
+                  class="w-full sm:max-w-none object-cover rounded-xl"
                 />
               </div>
               <!-- Image 2 -->
-
-              <div class="col-span-2">
+              <div class="col-span-1 sm:col-span-2">
                 <img
-                  src="../public/imgs/CTA-images/Recipe Card-1.png "
+                  src="../public/imgs/CTA-images/Recipe Card-1.png"
                   alt="Food Image 2"
-                  class="rounded-xl w-full object-cover"
+                  class="w-full h-auto object-cover rounded-xl"
                 />
               </div>
             </div>
-
-            <!-- Image 2 -->
-            <div class="">
+            <!-- Second Column (Image 3) -->
+            <div class="flex justify-center md:justify-end">
               <img
                 src="../public/imgs/CTA-images/About us Image.png"
                 alt="Food Image 3"
-                class="h-full"
+                class="w-full h-auto object-cover rounded-xl md:h-full"
               />
             </div>
           </div>
         </section>
         <!-- CTA Section  -->
-        <section id="cta-section">
+        <section id="cta-section ">
           <div
-            class="relative p-10 bg-primaryColor-3 rounded-2xl text-backGround text-center flex justify-center after:h-1200 after:w-1200 after:bg-box after:absolute after:bottom-1/2 after:rounded-full after:z-10 before:h-1200 before:w-1200 before:bg-box before:absolute before:top-1/2 before:rounded-full before:z-10 overflow-hidden"
+            class="relative bg-primaryColor-3 rounded-2xl text-backGround text-center flex justify-center after:h-custom after:w-custom-Secondary after:bg-box after:absolute after:bottom-2/4 after:rounded-full after:z-10 before:h-custom before:w-custom-Secondary before:bg-box before:absolute before:top-2/4 before:mt-2 after:mb-2 before:rounded-full before:z-10 overflow-hidden px-3"
           >
-            <div class="max-w-xl py-10 flex flex-col gap-3 relative z-20">
+            <div class="max-w-xl py-20 flex flex-col gap-7 relative z-20">
               <p class="text-xl font-semibold">Subscribe</p>
               <h2 class="text-3xl md:text-5xl font-extrabold uppercase">
                 Join the fun Subscribe now!
@@ -955,23 +958,28 @@
                 cooking tips, and exclusive insights straight to your inbox.
               </p>
 
-              <form
-                action="noaction.php"
-                class="md:bg-light md:w-fit w-80 m-auto rounded-full p-1 mt-7 flex flex-col md:flex-row md:gap-0 gap-2"
-              >
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  name="Email"
-                  id="Email"
-                  class="md:bg-transparent rounded-full pl-4 py-2 md:py-0 outline-none text-dark"
-                  required
-                />
-                <button
-                  class="bg-dark hover:bg-dark/90 transition-all duration-200 px-4 py-2 rounded-full font-semibold"
+              <form action="noaction.php">
+                <div
+                  class="md:bg-light md:w-fit w-full rounded-full justify-self-center p-1 mt-7 flex flex-col md:flex-row md:gap-0 gap-2"
                 >
-                  Subscribe
-                </button>
+                  <div class="rounded-full px-1">
+                    <input
+                      type="email"
+                      placeholder="Email Address"
+                      name="Email"
+                      id="Email"
+                      class="h-full rounded-full w-full pl-4 py-2 md:py-0 outline-none text-dark font-semibold"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <button
+                      class="bg-dark hover:bg-dark/90 transition-all duration-200 w-full px-4 py-2 rounded-full font-semibold"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
               </form>
             </div>
           </div>
