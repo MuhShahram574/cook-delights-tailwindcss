@@ -31,15 +31,17 @@ module.exports = {
         "cta-image": "url('./imgs/CTA-images/Recipe Card-1.png')",
       },
       maxWidth: {
-        1200: "1200px",
+        custom: "1200px",
       },
       width: {
-        custom: "2450px",
+        "custom-Secondary": "2450px",
+        "custom-primary": "2000px",
         1200: "1200px",
       },
       height: {
-        1200: "1200px",
+        "custom-Secondary": "1200px",
         custom: "3500px",
+        "custom-primary": "2600px",
       },
     },
   },

@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body
-    class="bg-backGround text-dark font-Montserrat selection:bg-dark selection:text-primaryColor-2"
+    class="bg-backGround text-dark font-Montserrat selection:bg-dark selection:text-primaryColor-2 max-w-7xl mx-auto"
   >
     <!-- Header Section -->
-    <header class="m-auto sx:max-w-full md:max-w-1200 p-2">
+    <header>
       <div
         class="border border-primaryColor-3 mt-3 px-5 py-3 rounded-full flex justify-between items-center"
       >
@@ -73,9 +73,7 @@
         <div>
           <ul class="md:flex gap-7 hidden">
             <li>
-              <a href="./index.html" class="font-bold border-b-4 border-red-700"
-                >Home</a
-              >
+              <a href="#" class="font-bold border-b-4 border-red-700">Home</a>
             </li>
             <li>
               <a
@@ -125,7 +123,7 @@
         </div>
       </div>
     </header>
-    <main class="m-auto max-w-screen-xl p-2">
+    <main class="py-2">
       <!-- menu Section -->
       <section
         class="menu hidden bg-dark text-light absolute top-0 right-0 left-0 bottom-0 z-50"
@@ -502,9 +500,9 @@
       <!-- Featured Section -->
       <section
         id="Featured-section"
-        class="mb-10 py-3 md:sticky md:top-0 bg-backGround md:z-30 sx:max-w-full md:max-w-1200 m-auto border border-dark/25 rounded-2xl"
+        class="mb-10 md:sticky md:top-0 bg-backGround md:z-30 rounded-2xl"
       >
-        <div class="p-3 md:p-5">
+        <div class="p-3 md:p-5 border-2 border-dark/25 rounded-2xl">
           <div
             class="flex md:flex-row flex-col justify-between md:items-center mb-5 md:mb-2"
           >
@@ -568,7 +566,7 @@
               class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all du groupration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
             >
               <img
-                src="./imgs/featured-img/herb-roasted-chicken.png"
+                src="./imgs/featured-img/chocolate-mousse-dessert.png"
                 alt="Featured image"
               />
               <div class="p-4 md:p-8 flex gap-3 flex-col">
@@ -606,11 +604,11 @@
         <!-- Recipes Section -->
         <section
           id="Recipes-section"
-          class="mb-20 max-w-full md:max-w-1200 m-auto bg-backGround pt-16 border-t border-dark/50 rounded-2xl"
+          class="mb-20 bg-backGround pt-16 border-t border-dark/50 rounded-2xl"
         >
-          <div class="p-2">
-            <div class="md:max-w-screen-lg max-w-full m-auto mb-12">
-              <div class="text-center mx-auto mb-8">
+          <div>
+            <div class="mb-12">
+              <div class="text-center mb-8">
                 <p
                   class="uppercase text-light bg-primaryColor-3 inline-block px-4 py-2 rounded-full font-semibold mb-4"
                 >
@@ -886,17 +884,12 @@
         </section>
 
         <!-- About Us Section -->
-        <section
-          id="About-Us-section"
-          class="mb-10 max-w-1200 m-auto bg-backGround"
-        >
-          <div
-            class="md:p-10 p-5 border-2 border-dark/25 rounded-2xl max-w-7xl mx-auto"
-          >
+        <section id="About-Us-section" class="mb-10">
+          <div class="md:p-10 p-5 border-2 border-dark/25 rounded-2xl">
             <div
               class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 items-end"
             >
-              <div class="max-w-full sm:max-w-fit p-3 sm:pr-6 lg:pr-24">
+              <div class="p-3 sm:pr-6 lg:pr-24">
                 <p
                   class="uppercase text-light bg-primaryColor-3 inline-block px-4 py-1 rounded-full font-semibold mb-4 text-xs sm:text-sm"
                 >
@@ -944,9 +937,9 @@
         </section>
 
         <!-- CTA Section  -->
-        <section id="cta-section" class="max-w-1200 m-auto">
+        <section id="cta-section">
           <div
-            class="relative p-10 bg-primaryColor-3 rounded-2xl text-backGround text-center flex justify-center after:h-1200 after:w-1200 after:bg-box after:absolute after:bottom-1/2 after:rounded-full after:z-10 before:h-1200 before:w-1200 before:mt-2 before:bg-box before:absolute before:top-1/2 before:rounded-full before:z-10 overflow-hidden"
+            class="relative p-10 bg-primaryColor-3 rounded-2xl text-backGround text-center flex justify-center after:h-1200 after:w-1200 after:bg-box after:absolute after:bottom-1/2 after:rounded-full after:z-10 before:h-1200 before:w-1200 before:bg-box before:absolute before:top-1/2 before:rounded-full before:z-10 overflow-hidden"
           >
             <div class="max-w-xl py-10 flex flex-col gap-3 relative z-20">
               <p class="text-xl font-semibold">Subscribe</p>
@@ -980,8 +973,8 @@
           </div>
         </section>
 
-        <footer id="footer-section" class="py-5 p-3">
-          <div class="max-w-1200 m-auto bg-dark p-4 rounded-2xl">
+        <footer id="footer-section" class="py-5">
+          <div class="bg-dark p-4 rounded-2xl">
             <div
               class="flex justify-between md:items-center pb-3 border-b border-light/10 flex-col md:flex-row"
             >
