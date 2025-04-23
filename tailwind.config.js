@@ -34,10 +34,12 @@ module.exports = {
         1200: "1200px",
       },
       width: {
+        custom: "2450px",
         1200: "1200px",
       },
       height: {
         1200: "1200px",
+        custom: "3500px",
       },
     },
   },
