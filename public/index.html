@@ -22,10 +22,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body
-    class="bg-backGround text-dark font-Montserrat selection:bg-dark selection:text-primaryColor-2"
+    class="bg-backGround text-dark font-Montserrat selection:bg-dark selection:text-primaryColor-2 mx-4 sm:mx-10 3xl:mx-96"
   >
     <!-- Header Section -->
-    <header class="m-auto sx:max-w-full md:max-w-1200 p-2">
+    <header>
       <div
         class="border border-primaryColor-3 mt-3 px-5 py-3 rounded-full flex justify-between items-center"
       >
@@ -73,25 +73,29 @@
         <div>
           <ul class="md:flex gap-7 hidden">
             <li>
-              <a href="#" class="font-bold border-b-4 border-red-700">Home</a>
+              <a
+                href="../public/index.html"
+                class="font-bold border-b-4 border-red-700"
+                >Home</a
+              >
             </li>
             <li>
               <a
-                href="#"
+                href="../public/Recipe.html"
                 class="font-semibold transition-all duration-200 uppercase text-dark/60 hover:text-dark"
                 >Recipes</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="../public/Cooking.html"
                 class="font-semibold transition-al duration-200 uppercase text-dark/60 hover:text-dark"
                 >Cooking Tips</a
               >
             </li>
             <li>
               <a
-                href="About-page.html"
+                href="../public/About-page.html"
                 class="font-semibold transition-al duration-200 uppercase text-dark/60 hover:text-dark"
                 >About Us</a
               >
@@ -123,7 +127,7 @@
         </div>
       </div>
     </header>
-    <main class="m-auto max-w-screen-xl p-2">
+    <main class="pt-2">
       <!-- menu Section -->
       <section
         class="menu hidden bg-dark text-light absolute top-0 right-0 left-0 bottom-0 z-50"
@@ -230,17 +234,17 @@
       <!-- HEROS SECTION -->
       <section id="heros-section" class="md:sticky md:top-0 md:z-10">
         <div
-          class="p-2 max-w-full md:max-w-1200 m-auto bg-hero-image bg-cover bg-center h-[65vh] rounded-2xl flex justify-center items-center"
+          class="p-2 max-w-full md:max-w-1200 m-auto bg-hero-image bg-cover bg-center sm:h-hero-secondary 2xl:h-hero-primary rounded-2xl flex justify-center items-center"
         >
           <div
             class="text-light text-center flex flex-col justify-center items-center gap-3 md:max-w-screen-lg"
           >
             <h1
-              class="text-3xl md:text-5xl xl:text-7xl font-bold uppercase md:max-w-3xl lg:max-w-4xl"
+              class="text-2xl md:text-5xl xl:text-7xl font-bold uppercase md:max-w-3xl lg:max-w-4xl"
             >
               Unleash Culinary Excellence
             </h1>
-            <p class="xl:text-2xl lg:text-xl sm:text-lg w-3/5 mb-5">
+            <p class="xl:text-2xl lg:text-xl sm:text-lg md:w-3/5 mb-5">
               Explore a world of flavors, discover handcrafted recipes, and let
               the aroma of our passion for cooking fill your kitchen
             </p>
@@ -500,9 +504,9 @@
       <!-- Featured Section -->
       <section
         id="Featured-section"
-        class="mb-10 py-3 md:sticky md:top-0 bg-backGround md:z-30 sx:max-w-full md:max-w-1200 m-auto border border-dark/25 rounded-2xl"
+        class="mb-10 md:sticky md:top-0 bg-backGround md:z-30 rounded-2xl"
       >
-        <div class="p-3 md:p-5">
+        <div class="p-3 md:p-5 border-2 border-dark/25 rounded-2xl">
           <div
             class="flex md:flex-row flex-col justify-between md:items-center mb-5 md:mb-2"
           >
@@ -533,7 +537,7 @@
               class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all du groupration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
             >
               <img
-                src="./imgs/featured-img/Recipe Image.png"
+                src="./imgs/featured-img/herb-roasted-chicken.png"
                 alt="Featured image"
               />
               <div class="p-4 md:p-8 flex md:gap-3 flex-col">
@@ -566,7 +570,7 @@
               class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all du groupration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
             >
               <img
-                src="./imgs/featured-img/Recipe Image (1).png"
+                src="./imgs/featured-img/chocolate-mousse-dessert.png"
                 alt="Featured image"
               />
               <div class="p-4 md:p-8 flex gap-3 flex-col">
@@ -604,11 +608,11 @@
         <!-- Recipes Section -->
         <section
           id="Recipes-section"
-          class="mb-20 max-w-full md:max-w-1200 m-auto bg-backGround pt-16 border-t border-dark/50 rounded-2xl"
+          class="mb-20 bg-backGround pt-16 border-t border-dark/50 rounded-2xl"
         >
-          <div class="p-2">
-            <div class="md:max-w-screen-lg max-w-full m-auto mb-12">
-              <div class="text-center mx-auto mb-8">
+          <div>
+            <div class="mb-12">
+              <div class="text-center mb-8">
                 <p
                   class="uppercase text-light bg-primaryColor-3 inline-block px-4 py-2 rounded-full font-semibold mb-4"
                 >
@@ -884,69 +888,71 @@
         </section>
 
         <!-- About Us Section -->
-        <section
-          id="About-Us-section"
-          class="mb-10 max-w-1200 m-auto bg-backGround"
-        >
-          <div
-            class="md:p-10 p-5 border-2 border-dark/25 rounded-2xl max-w-7xl mx-auto"
-          >
+
+        <section class="mb-10">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
+            <!-- First Column -->
             <div
-              class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 items-end"
+              class="col-span-1 md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6"
             >
-              <div class="max-w-full sm:max-w-fit p-3 sm:pr-6 lg:pr-24">
+              <!-- Text Content -->
+              <div class="flex flex-col justify-end mb-3">
                 <p
-                  class="uppercase text-light bg-primaryColor-3 inline-block px-4 py-1 rounded-full font-semibold mb-4 text-xs sm:text-sm"
+                  class="uppercase text-xs sm:text-sm py-2 px-4 sm:px-5 font-bold rounded-full bg-primaryColor-3 mb-5 text-light text-center w-fit"
                 >
-                  Recipes
+                  About Us
                 </p>
-                <h2 class="text-2xl sm:text-3xl uppercase font-bold mb-3">
-                  Our Culinary Chronicle
+                <h2
+                  class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 leading-tight"
+                >
+                  OUR CULINARY CHRONICLE
                 </h2>
-                <p class="text-xs sm:text-sm mb-5">
+                <p class="text-gray-700 text-sm sm:text-base mb-6">
                   Our journey is crafted with dedication, creativity, and an
-                  unrelenting commitment to delivering delightful culinary
+                  unwavering commitment to delivering delightful culinary
                   experiences. Join us in savoring the essence of every dish and
                   the stories that unfold.
                 </p>
                 <a
                   href="#"
-                  class="uppercase text-xs sm:text-sm py-2 sm:py-1.5 px-4 sm:px-3 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center inline-block"
+                  class="uppercase text-xs sm:text-sm py-2 px-4 sm:px-5 font-semibold rounded-full border-2 border-dark hover:bg-dark hover:text-white transition-all duration-300 text-center w-fit"
                 >
-                  View Recipe
+                  Read more
                 </a>
               </div>
-              <div class="w-full">
+              <!-- Image 1 -->
+              <div class="flex justify-center sm:justify-end">
                 <img
-                  src="./imgs/CTA-images/Recipe Card.png"
-                  alt="Beaf image"
-                  class="object-cover rounded-2xl w-full h-48 sm:h-64 lg:h-80"
+                  src="../public/imgs/CTA-images/Recipe Card.png"
+                  alt="Food Image 1"
+                  class="w-full sm:max-w-none object-cover rounded-xl"
                 />
               </div>
-              <div class="w-full sm:col-span-2 lg:col-span-1 lg:row-span-2">
+              <!-- Image 2 -->
+              <div class="col-span-1 sm:col-span-2">
                 <img
-                  src="./imgs/CTA-images/About us Image.png"
-                  alt="Chef image"
-                  class="object-cover rounded-2xl w-full h-full"
-                />
-              </div>
-              <div class="w-full sm:col-span-2">
-                <img
-                  src="./imgs/CTA-images/Recipe Card-1.png"
-                  alt="Delicious Meal"
-                  class="object-cover rounded-2xl w-full h-48 sm:h-64 lg:h-80"
+                  src="../public/imgs/CTA-images/Recipe Card-1.png"
+                  alt="Food Image 2"
+                  class="w-full h-auto object-cover rounded-xl"
                 />
               </div>
             </div>
+            <!-- Second Column (Image 3) -->
+            <div class="flex justify-center md:justify-end">
+              <img
+                src="../public/imgs/CTA-images/About us Image.png"
+                alt="Food Image 3"
+                class="w-full h-auto object-cover rounded-xl md:h-full"
+              />
+            </div>
           </div>
         </section>
-
         <!-- CTA Section  -->
-        <section id="cta-section" class="max-w-1200 m-auto">
+        <section id="cta-section ">
           <div
-            class="relative p-10 bg-primaryColor-3 rounded-2xl text-backGround text-center flex justify-center after:h-1200 after:w-1200 after:bg-box after:absolute after:bottom-1/2 after:rounded-full after:z-10 before:h-1200 before:w-1200 before:bg-box before:absolute before:top-1/2 before:rounded-full before:z-10 overflow-hidden"
+            class="relative bg-primaryColor-3 rounded-2xl text-backGround text-center flex justify-center after:h-custom after:w-custom-Secondary after:bg-box after:absolute after:bottom-2/4 after:rounded-full after:z-10 before:h-custom before:w-custom-Secondary before:bg-box before:absolute before:top-2/4 before:mt-2 after:mb-2 before:rounded-full before:z-10 overflow-hidden px-3"
           >
-            <div class="max-w-xl py-10 flex flex-col gap-3 relative z-20">
+            <div class="max-w-xl py-20 flex flex-col gap-7 relative z-20">
               <p class="text-xl font-semibold">Subscribe</p>
               <h2 class="text-3xl md:text-5xl font-extrabold uppercase">
                 Join the fun Subscribe now!
@@ -956,30 +962,35 @@
                 cooking tips, and exclusive insights straight to your inbox.
               </p>
 
-              <form
-                action="noaction.php"
-                class="md:bg-light md:w-fit w-80 m-auto rounded-full p-1 mt-7 flex flex-col md:flex-row md:gap-0 gap-2"
-              >
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  name="Email"
-                  id="Email"
-                  class="md:bg-transparent rounded-full pl-4 py-2 md:py-0 outline-none text-dark"
-                  required
-                />
-                <button
-                  class="bg-dark hover:bg-dark/90 transition-all duration-200 px-4 py-2 rounded-full font-semibold"
+              <form action="noaction.php">
+                <div
+                  class="md:bg-light md:w-fit w-full rounded-full justify-self-center p-1 mt-7 flex flex-col md:flex-row md:gap-0 gap-2"
                 >
-                  Subscribe
-                </button>
+                  <div class="rounded-full px-1">
+                    <input
+                      type="email"
+                      placeholder="Email Address"
+                      name="Email"
+                      id="Email"
+                      class="h-full rounded-full w-full pl-4 py-2 md:py-0 outline-none text-dark font-semibold"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <button
+                      class="bg-dark hover:bg-dark/90 transition-all duration-200 w-full px-4 py-2 rounded-full font-semibold"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
               </form>
             </div>
           </div>
         </section>
 
-        <footer id="footer-section" class="py-5 p-3">
-          <div class="max-w-1200 m-auto bg-dark p-4 rounded-2xl">
+        <footer id="footer-section" class="py-3">
+          <div class="bg-dark p-4 rounded-2xl">
             <div
               class="flex justify-between md:items-center pb-3 border-b border-light/10 flex-col md:flex-row"
             >
@@ -1030,7 +1041,7 @@
                     class="pt-5 pb-3 border-b border-light/50 md:border-none md:mb-0"
                   >
                     <a
-                      href="#"
+                      href="../public/index.html"
                       class="text-light/75 hover:text-light font-semibold transition-all duration-200 uppercase"
                       >Home</a
                     >
@@ -1039,7 +1050,7 @@
                     class="pt-5 pb-3 border-b border-light/50 md:border-none md:mb-0"
                   >
                     <a
-                      href="#"
+                      href="../public/Recipe.html"
                       class="text-light/75 hover:text-light font-semibold transition-all duration-200 uppercase"
                       >Recipes</a
                     >
@@ -1048,7 +1059,7 @@
                     class="pt-5 pb-3 border-b border-light/50 md:border-none md:mb-0"
                   >
                     <a
-                      href="#"
+                      href="../public/Cooking-Page.html"
                       class="text-light/75 hover:text-light font-semibold transition-al duration-200 uppercase"
                       >Cooking Tips</a
                     >
@@ -1057,7 +1068,7 @@
                     class="pt-5 pb-3 border-b border-light/50 md:border-none md:mb-0"
                   >
                     <a
-                      href="#"
+                      href="../public/About-page.html"
                       class="text-light/75 hover:text-light font-semibold transition-al duration-200 uppercase"
                       >About Us</a
                     >

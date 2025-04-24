@@ -10,6 +10,7 @@ module.exports = {
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
+        "3xl": "1920px",
       },
       colors: {
         dark: "#262522",
@@ -23,19 +24,24 @@ module.exports = {
       },
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
+        "Homemade-Apple": ["Homemade Apple", "cursive"],
       },
       backgroundImage: {
         "hero-image": "url('./imgs/Hero  Section (1).png')",
         "cta-image": "url('./imgs/CTA-images/Recipe Card-1.png')",
       },
       maxWidth: {
-        1200: "1200px",
+        custom: "1200px",
       },
       width: {
+        "custom-Secondary": "2450px",
         1200: "1200px",
       },
       height: {
-        1200: "1200px",
+        "custom-Secondary": "1200px",
+        custom: "3500px",
+        "hero-primary": "80vh",
+        "hero-secondary": "56vh",
       },
     },
   },
