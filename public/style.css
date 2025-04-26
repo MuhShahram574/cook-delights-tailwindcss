@@ -1015,7 +1015,7 @@ video {
 }
 
 .bg-hero-image {
-  background-image: url('./imgs/Hero  Section (1).png');
+  background-image: url('../public/imgs/Hero  Section (1).png');
 }
 
 .bg-cover {
@@ -2082,16 +2082,12 @@ video {
     margin-right: 24rem;
   }
 
-  .\33xl\:max-w-3xl {
-    max-width: 48rem;
+  .\33xl\:max-w-screen-3xl {
+    max-width: 1920px;
   }
 
   .\33xl\:max-w-screen-lg {
     max-width: 1024px;
-  }
-
-  .\33xl\:max-w-screen-3xl {
-    max-width: 1920px;
   }
 
   .\33xl\:text-2xl {
