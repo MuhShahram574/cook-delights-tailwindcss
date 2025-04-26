@@ -27,8 +27,7 @@ module.exports = {
         "Homemade-Apple": ["Homemade Apple", "cursive"],
       },
       backgroundImage: {
-        "hero-image": "url('./imgs/Hero  Section (1).png')",
-        "cta-image": "url('./imgs/CTA-images/Recipe Card-1.png')",
+        "hero-image": "url('../public/imgs/Hero  Section (1).png')",
       },
       maxWidth: {
         custom: "1200px",
