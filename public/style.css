@@ -811,6 +811,10 @@ video {
   list-style-type: disc;
 }
 
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -819,8 +823,13 @@ video {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
+<<<<<<< HEAD
 .grid-cols-9 {
   grid-template-columns: repeat(9, minmax(0, 1fr));
+=======
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+>>>>>>> 64672bc9d4b8d7687c0df1dc2f23665d8fdbd373
 }
 
 .flex-col {
@@ -831,8 +840,17 @@ video {
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .place-items-center {
   place-items: center;
+=======
+.place-content-between {
+  place-content: space-between;
+}
+
+.place-items-end {
+  place-items: end;
+>>>>>>> 64672bc9d4b8d7687c0df1dc2f23665d8fdbd373
 }
 
 .items-end {
@@ -906,6 +924,10 @@ video {
 
 .gap-y-5 {
   row-gap: 1.25rem;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .justify-self-center {
@@ -1709,8 +1731,13 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+<<<<<<< HEAD
   .sm\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
+=======
+  .sm\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+>>>>>>> 64672bc9d4b8d7687c0df1dc2f23665d8fdbd373
   }
 
   .sm\:flex-row {
@@ -1723,6 +1750,10 @@ video {
 
   .sm\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .sm\:gap-0 {
+    gap: 0px;
   }
 
   .sm\:px-10 {
@@ -2097,6 +2128,10 @@ video {
     flex-direction: row;
   }
 
+  .lg\:items-end {
+    align-items: flex-end;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -2146,10 +2181,6 @@ video {
 
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .xl\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:grid-cols-4 {
