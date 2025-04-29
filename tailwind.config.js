@@ -41,6 +41,7 @@ module.exports = {
         custom: "3500px",
         "hero-primary": "80vh",
         "hero-secondary": "56vh",
+        "custom-height-card": "250px",
       },
     },
   },
