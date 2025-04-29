@@ -590,6 +590,30 @@ video {
   top: 50%;
 }
 
+.top-7 {
+  top: 1.75rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.top-28 {
+  top: 7rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.top-44 {
+  top: 11rem;
+}
+
+.top-48 {
+  top: 12rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -1053,6 +1077,16 @@ video {
   background-color: rgb(196 229 252 / var(--tw-bg-opacity, 1));
 }
 
+.bg-green-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity, 1));
+}
+
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+}
+
 .bg-hero-image {
   background-image: url('../public/imgs/Hero  Section (1).png');
 }
@@ -1190,6 +1224,11 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
 }
 
 .pb-10 {
@@ -1743,6 +1782,11 @@ video {
     padding-right: 1.25rem;
   }
 
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1941,6 +1985,10 @@ video {
 
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
   }
 
   .md\:border-none {
@@ -2168,6 +2216,30 @@ video {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
+  .xl\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .xl\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .xl\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .xl\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2186,6 +2258,31 @@ video {
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -2208,9 +2305,34 @@ video {
     padding-right: 2rem;
   }
 
+  .\32xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .\32xl\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .\32xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -2235,6 +2357,16 @@ video {
     max-width: 1024px;
   }
 
+  .\33xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .\33xl\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
   .\33xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2253,5 +2385,15 @@ video {
   .\33xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .\33xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .\33xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
