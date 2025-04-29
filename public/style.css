@@ -746,6 +746,10 @@ video {
   height: 320px;
 }
 
+.h-lg-height-card {
+  height: 250px;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -1731,6 +1735,10 @@ video {
 
   .sm\:h-hero-secondary {
     height: 56vh;
+  }
+
+  .sm\:h-lg-height-card {
+    height: 250px;
   }
 
   .sm\:w-52 {
