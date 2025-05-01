@@ -1066,8 +1066,12 @@ video {
   background-color: rgb(196 229 252 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[url\(img\/main-\)\] {
+  background-image: url(img/main-);
+}
+
 .bg-hero-image {
-  background-image: url('../public/imgs/Hero  Section (1).png');
+  background-image: url('./imgs/main-hero-image.png');
 }
 
 .bg-cover {
