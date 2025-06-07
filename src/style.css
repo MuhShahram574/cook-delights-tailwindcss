@@ -811,6 +811,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.animate-fadeOut {
+  animation: fadeOut linear 2s;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1457,6 +1461,11 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.scroll-animate {
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .selection\:bg-dark *::-moz-selection {
