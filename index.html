@@ -230,7 +230,7 @@
         </div>
       </section>
       <!-- HEROS SECTION -->
-      <section id="heros-section" class="md:sticky md:top-0 md:z-10">
+      <section id="heros-section" class="md:sticky top-0 z-10">
         <div
           class="p-2 max-w-full md:max-w-1200 m-auto bg-hero-image bg-cover bg-center sm:h-hero-secondary 2xl:h-hero-primary rounded-2xl flex justify-center items-center"
         >
@@ -256,7 +256,7 @@
       </section>
 
       <!-- Explore Section -->
-      <section class="md:sticky mb-10 md:top-0 md:z-20">
+      <section class="md:sticky mb-10 top-0 z-20">
         <div
           class="p-5 max-w-1200 m-auto bg-primaryColor-4 mt-4 rounded-2xl grid md:grid-cols-2 grid-cols-1 items-end"
         >
@@ -502,7 +502,7 @@
       <!-- Featured Section -->
       <section
         id="Featured-section"
-        class="mb-10 md:sticky md:top-0 bg-backGround md:z-30 rounded-2xl"
+        class="mb-10 md:sticky top-0 z-20 bg-backGround rounded-2xl"
       >
         <div class="p-3 md:p-5 border-2 border-dark/25 rounded-2xl">
           <div
@@ -532,70 +532,63 @@
           >
             <!-- Card--1 -->
             <div
-              class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all du groupration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
+              class="h-full shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group flex flex-col justify-between"
             >
-              <img
-                src="./imgs/featured-img/herb-roasted-chicken.png"
-                alt="Featured image"
-              />
-              <div class="p-4 md:p-8 flex md:gap-3 flex-col">
-                <h3 class="font-bold text-xl md:text-2xl">
-                  Savory Herb-Infused Chicken
-                </h3>
-                <p
-                  class="text-dark/75 mb-6 md:mb-8"
-                  transition-all
-                  duration-150
-                  000
-                >
-                  Indulge in the rich and savory symphony of flavors with our
-                  Savory Herb-Infused Chicken
-                </p>
-                <div
-                  class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                >
-                  <p class="font-bold text-sm">40 Min - easy prep - 3 serves</p>
-                  <a
-                    href="#"
-                    class="uppercase text md:text-md py-1 md:py-1.5 px-2 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transitigroup-on-all duration-250 text-center"
-                    >View Recipe</a
-                  >
+              <div class="flex flex-col gap-6">
+                <img
+                  src="./imgs/featured-img/herb-roasted-chicken.png"
+                  alt="Featured image"
+                />
+                <div class="px-4 md:px-8 flex md:gap-3 flex-col">
+                  <h3 class="font-bold text-xl md:text-2xl">
+                    Savory Herb-Infused Chicken
+                  </h3>
+                  <p class="text-dark/75" transition-all duration-150 000>
+                    Indulge in the rich and savory symphony of flavors with our
+                    Savory Herb-Infused Chicken
+                  </p>
                 </div>
               </div>
+              <div
+                class="p-4 md:p-8 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+              >
+                <p class="font-bold text-sm">40 Min - easy prep - 3 serves</p>
+                <a
+                  href="#"
+                  class="uppercase text md:text-md py-1 md:py-1.5 px-2 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transitigroup-on-all duration-250 text-center"
+                  >View Recipe</a
+                >
+              </div>
             </div>
+
             <!-- Card--2 -->
             <div
-              class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all du groupration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
+              class="h-full shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group flex flex-col justify-between"
             >
-              <img
-                src="./imgs/featured-img/chocolate-mousse-dessert.png"
-                alt="Featured image"
-              />
-              <div class="p-4 md:p-8 flex gap-3 flex-col">
-                <h3 class="font-bold text-xl md:text-2xl">
-                  Decadent Chocolate Mousse
-                </h3>
-                <p
-                  class="text-dark/75 mb-6 md:mb-8"
-                  transition-all
-                  duration-150
-                  000
-                >
-                  Dive into the velvety indulgence of our Decadent Chocolate
-                  Mousse. A dessert that transcends sweetness!
-                </p>
-                <div
-                  class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                >
-                  <p class="font-bold text-sm">
-                    30 Min - medium prep- 4 serves
+              <div class="flex flex-col gap-6">
+                <img
+                  src="./imgs/featured-img/chocolate-mousse-dessert.png"
+                  alt="Featured image"
+                />
+                <div class="px-4 md:px-8 flex md:gap-3 flex-col">
+                  <h3 class="font-bold text-xl md:text-2xl">
+                    Decadent Chocolate Mousse
+                  </h3>
+                  <p class="text-dark/75" transition-all duration-150 000>
+                    Dive into the velvety indulgence of our Decadent Chocolate
+                    Mousse. A dessert that transcends sweetness!
                   </p>
-                  <a
-                    href="#"
-                    class="uppercase md:text-md py-1 md:py-1.5 px-2 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transition-all duration-250 text-center"
-                    >View Recipe</a
-                  >
                 </div>
+              </div>
+              <div
+                class="p-4 md:p-8 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+              >
+                <p class="font-bold text-sm">30 Min - medium prep- 4 serves</p>
+                <a
+                  href="#"
+                  class="uppercase text md:text-md py-1 md:py-1.5 px-2 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transitigroup-on-all duration-250 text-center"
+                  >View Recipe</a
+                >
               </div>
             </div>
           </div>
@@ -681,204 +674,205 @@
               </div>
             </div>
             <div
-              class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-y-5 gap-x-3"
+              class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-5 gap-x-3"
             >
               <!-- Card--1 -->
               <div
-                class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 scroll-animate animate-fadeOut"
+                class="shadow-lg shadow-dark/10 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 scroll-animate animate-fadeOut flex flex-col justify-between"
               >
-                <img
-                  src="./imgs/Recpies/herb-grilled-chicken.png"
-                  alt="Featured image"
-                  class="w-full object-contain"
-                />
-                <div class="p-4 md:p-5 flex gap-3 flex-col">
-                  <h3 class="font-bold text-lg md:text-2xl md:max-w-64">
-                    Savory Herb-Infused Chicken
-                  </h3>
-                  <p
-                    class="text-dark/75 mb-6 md:mb-8 transition-all duration-1000 sx:text-sm md:text-base"
-                  >
-                    Indulge in the rich and savory symphony of flavors with our
-                    Savory Herb-Infused Chicken
-                  </p>
-                  <div
-                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                  >
-                    <p class="font-bold text-sm">
-                      40 Min - easy prep - 3 serves
-                    </p>
-                    <a
-                      href="#"
-                      class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center"
-                      >View Recipe</a
+                <div class="flex flex-col gap-5">
+                  <img
+                    src="./imgs/Recpies/herb-grilled-chicken.png"
+                    alt="Featured image"
+                    class="w-full object-contain"
+                  />
+                  <div class="px-4 md:px-5 flex gap-3 flex-col">
+                    <h3 class="font-bold text-lg md:text-2xl">
+                      Savory Herb-Infused Chicken
+                    </h3>
+                    <p
+                      class="text-dark/75 transition-all duration-1000 sx:text-sm md:text-base"
                     >
+                      Indulge in the rich and savory symphony of flavors with
+                      our Savory Herb-Infused Chicken
+                    </p>
                   </div>
+                </div>
+                <div
+                  class="p-4 md:p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+                >
+                  <p class="font-bold text-sm">40 Min - easy prep - 3 serves</p>
+                  <a
+                    href="#"
+                    class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center"
+                    >View Recipe</a
+                  >
                 </div>
               </div>
               <!-- Card--2 -->
               <div
-                class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
+                class="shadow-lg shadow-dark/10 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 scroll-animate animate-fadeOut flex flex-col justify-between"
               >
-                <img
-                  src="./imgs/Recpies/roast-chicken-lemons.png"
-                  alt="Featured image"
-                  class="w-full object-contain"
-                />
-                <div class="p-4 md:p-5 flex gap-3 flex-col">
-                  <h3 class="font-bold text-lg md:text-2xl md:max-w-64">
-                    Lemon Garlic Grilled Chicken
-                  </h3>
-                  <p
-                    class="text-dark/75 mb-6 md:mb-8 transition-all duration-1000 text-sm md:text-base"
-                  >
-                    Experience the perfect blend of zesty lemon and aromatic
-                    garlic with this roasted chicken recipe
-                  </p>
-                  <div
-                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                  >
-                    <p class="font-bold text-sm">
-                      1 hour - hard prep - 4 serves
-                    </p>
-                    <a
-                      href="#"
-                      class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transition-all duration-250 text-center"
-                      >View Recipe</a
+                <div class="flex flex-col gap-5">
+                  <img
+                    src="./imgs/Recpies/roast-chicken-lemons.png"
+                    alt="Featured image"
+                    class="w-full object-contain"
+                  />
+                  <div class="px-4 md:px-5 flex gap-3 flex-col">
+                    <h3 class="font-bold text-lg md:text-2xl">
+                      Lemon Garlic Grilled Chicken
+                    </h3>
+                    <p
+                      class="text-dark/75 transition-all duration-1000 sx:text-sm md:text-base"
                     >
+                      Experience the perfect blend of zesty lemon and aromatic
+                      garlic with this roasted chicken recipe
+                    </p>
                   </div>
+                </div>
+                <div
+                  class="p-4 md:p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+                >
+                  <p class="font-bold text-sm">1 hour - hard prep - 4 serves</p>
+                  <a
+                    href="#"
+                    class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center"
+                    >View Recipe</a
+                  >
                 </div>
               </div>
               <!-- Card--3 -->
               <div
-                class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
+                class="shadow-lg shadow-dark/10 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 scroll-animate animate-fadeOut flex flex-col justify-between"
               >
-                <img
-                  src="./imgs/Recpies/quinoa-broccoli-salad.png"
-                  alt="Featured image"
-                  class="w-full object-contain"
-                />
-                <div class="p-4 md:p-5 flex gap-3 flex-col">
-                  <h3 class="font-bold text-lg md:text-2xl md:max-w-56">
-                    Quinoa Veggie Stir-Fry
-                  </h3>
-                  <p
-                    class="text-dark/75 mb-6 md:mb-8 transition-all duration-1000 md:text-base text-sm"
-                  >
-                    Quick, wholesome, and bursting with flavors, it's perfect
-                    for a healthy weeknight dinner.
-                  </p>
-                  <div
-                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                  >
-                    <p class="font-bold text-sm">
-                      30 Min - easy prep - 3 serves
-                    </p>
-                    <a
-                      href="#"
-                      class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transition-all duration-250 text-center"
-                      >View Recipe</a
+                <div class="flex flex-col gap-5">
+                  <img
+                    src="./imgs/Recpies/quinoa-broccoli-salad.png"
+                    alt="Featured image"
+                    class="w-full object-contain"
+                  />
+                  <div class="px-4 md:px-5 flex gap-3 flex-col">
+                    <h3 class="font-bold text-lg md:text-2xl">
+                      Quinoa Veggie Stir-Fry
+                    </h3>
+                    <p
+                      class="text-dark/75 transition-all duration-1000 sx:text-sm md:text-base"
                     >
+                      Quick, wholesome, and bursting with flavors, it's perfect
+                      for a healthy weeknight dinner.
+                    </p>
                   </div>
                 </div>
+                <div
+                  class="p-4 md:p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+                >
+                  <p class="font-bold text-sm">30 Min - easy prep - 3 serves</p>
+                  <a
+                    href="#"
+                    class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center"
+                    >View Recipe</a
+                  >
+                </div>
               </div>
+
               <!-- Card--4 -->
               <div
-                class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
+                class="shadow-lg shadow-dark/10 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 scroll-animate animate-fadeOut flex flex-col justify-between"
               >
-                <img
-                  src="./imgs/Recpies/berry-smoothie-bowl.png"
-                  alt="Featured image"
-                  class="w-full object-contain"
-                />
-                <div class="p-4 md:p-5 flex gap-3 flex-col">
-                  <h3 class="font-bold text-xl md:text-2xl md:max-w-72">
-                    Berry Bliss Smoothie Bowl
-                  </h3>
-                  <p
-                    class="text-dark/75 mb-6 md:mb-8 transition-all duration-1000"
-                  >
-                    This berry smoothie bowl is not only visually appealing but
-                    also a powerhouse of antioxidants.
-                  </p>
-                  <div
-                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                  >
-                    <p class="font-bold text-sm">
-                      10 Min - easy prep - 2 serves
-                    </p>
-                    <a
-                      href="#"
-                      class="uppercase md:text-sm py-2 md:py-1.5 px-4 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transition-all duration-250 text-center"
-                      >View Recipe</a
+                <div class="flex flex-col gap-5">
+                  <img
+                    src="./imgs/Recpies/berry-smoothie-bowl.png"
+                    alt="Featured image"
+                    class="w-full object-contain"
+                  />
+                  <div class="px-4 md:px-5 flex gap-3 flex-col">
+                    <h3 class="font-bold text-lg md:text-2xl">
+                      Berry Bliss Smoothie Bowl
+                    </h3>
+                    <p
+                      class="text-dark/75 transition-all duration-1000 sx:text-sm md:text-base"
                     >
+                      This berry smoothie bowl is not only visually appealing
+                      but also a powerhouse of antioxidants.
+                    </p>
                   </div>
+                </div>
+                <div
+                  class="p-4 md:p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+                >
+                  <p class="font-bold text-sm">10 Min - easy prep - 2 serves</p>
+                  <a
+                    href="#"
+                    class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center"
+                    >View Recipe</a
+                  >
                 </div>
               </div>
               <!-- Card--5 -->
               <div
-                class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
+                class="shadow-lg shadow-dark/10 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 scroll-animate animate-fadeOut flex flex-col justify-between"
               >
-                <img
-                  src="./imgs/Recpies/garlic-herb-spaghetti.png"
-                  alt="Featured image"
-                  class="w-full object-contain"
-                />
-                <div class="p-4 md:p-5 flex gap-3 flex-col">
-                  <h3 class="font-bold text-xl md:text-2xl md:max-w-56">
-                    Spaghetti Aglio e Olio
-                  </h3>
-                  <p
-                    class="text-dark/75 mb-6 md:mb-8 transition-all duration-1000"
-                  >
-                    A minimalist yet flavorful dish with garlic, olive oil, and
-                    a hint of red pepper flakes.
-                  </p>
-                  <div
-                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                  >
-                    <p class="font-bold text-sm">
-                      20 min - easy prep - 2 serves
-                    </p>
-                    <a
-                      href="#"
-                      class="uppercase md:text-sm py-2 md:py-1.5 px-4 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transition-all duration-250 text-center"
-                      >View Recipe</a
+                <div class="flex flex-col gap-5">
+                  <img
+                    src="./imgs/Recpies/garlic-herb-spaghetti.png"
+                    alt="Featured image"
+                    class="w-full object-contain"
+                  />
+                  <div class="px-4 md:px-5 flex gap-3 flex-col">
+                    <h3 class="font-bold text-lg md:text-2xl">
+                      Spaghetti Aglio e Olio
+                    </h3>
+                    <p
+                      class="text-dark/75 transition-all duration-1000 sx:text-sm md:text-base"
                     >
+                      A minimalist yet flavorful dish with garlic, olive oil,
+                      and a hint of red pepper flakes.
+                    </p>
                   </div>
+                </div>
+                <div
+                  class="p-4 md:p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+                >
+                  <p class="font-bold text-sm">20 min - easy prep - 2 serves</p>
+                  <a
+                    href="#"
+                    class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center"
+                    >View Recipe</a
+                  >
                 </div>
               </div>
               <!-- Card--6 -->
               <div
-                class="shadow-lg shadow-dark/10 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 group"
+                class="shadow-lg shadow-dark/10 rounded-2xl transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-dark/20 scroll-animate animate-fadeOut flex flex-col justify-between"
               >
-                <img
-                  src="./imgs/Recpies/vegetable-skewers-sauce.png"
-                  alt="Featured image"
-                  class="w-full object-contain"
-                />
-                <div class="p-4 md:p-5 flex gap-3 flex-col">
-                  <h3 class="font-bold text-xl md:text-2xl md:max-w-64">
-                    Grilled Veggies with Sauce
-                  </h3>
-                  <p
-                    class="text-dark/75 mb-6 md:mb-8 transition-all duration-1000"
-                  >
-                    Served with a zesty chimichurri sauce its a perfect addition
-                    to your outdoor gatherings.
-                  </p>
-                  <div
-                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-3"
-                  >
-                    <p class="font-bold text-sm">
-                      25 Min - easy prep - 6-serves
-                    </p>
-                    <a
-                      href="#"
-                      class="uppercase md:text-sm py-2 md:py-1.5 px-4 md:px-3 font-semibold rounded-full border-2 border-dark group-hover:bg-dark/95 group-hover:text-light transition-all duration-250 text-center"
-                      >View Recipe</a
+                <div class="flex flex-col gap-5">
+                  <img
+                    src="./imgs/Recpies/vegetable-skewers-sauce.png"
+                    alt="Featured image"
+                    class="w-full object-contain"
+                  />
+                  <div class="px-4 md:px-5 flex gap-3 flex-col">
+                    <h3 class="font-bold text-lg md:text-2xl">
+                      Grilled Veggies with Sauce
+                    </h3>
+                    <p
+                      class="text-dark/75 transition-all duration-1000 sx:text-sm md:text-base"
                     >
+                      Served with a zesty chimichurri sauce its a perfect
+                      addition to your outdoor gatherings.
+                    </p>
                   </div>
+                </div>
+                <div
+                  class="p-4 md:p-5 flex flex-col lg:flex-row lg:items-center justify-between gap-3"
+                >
+                  <p class="font-bold text-sm">25 Min - easy prep - 6-serves</p>
+                  <a
+                    href="#"
+                    class="uppercase md:text-sm px-2 md:px-3 py-1 md:py-1.5 font-semibold rounded-full border-2 border-dark hover:bg-dark/95 hover:text-light transition-all duration-250 text-center"
+                    >View Recipe</a
+                  >
                 </div>
               </div>
             </div>
